@@ -1,5 +1,5 @@
 PKG_NAME := spyder-kernels
-URL = https://files.pythonhosted.org/packages/71/bc/2f83e720db0026324b46212dd1363298bd6b4dc95a3f902012e71fab434a/spyder-kernels-1.9.2.tar.gz
+URL = https://files.pythonhosted.org/packages/72/cf/930e52d1f6bc438b14f16d9f4de9a442ad8409de4ce57f78ed3e5adbf5c9/spyder-kernels-1.9.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

@@ -4,7 +4,7 @@
 #
 Name     : spyder-kernels
 Version  : 1.10.0
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/b3/26/8c65307ffec16f727898965a200b4ba72563c81f6f933d221c33e86a4ab0/spyder-kernels-1.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b3/26/8c65307ffec16f727898965a200b4ba72563c81f6f933d221c33e86a4ab0/spyder-kernels-1.10.0.tar.gz
 Summary  : Jupyter kernels for Spyder's console

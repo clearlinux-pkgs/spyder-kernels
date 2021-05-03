@@ -4,7 +4,7 @@
 #
 Name     : spyder-kernels
 Version  : 2.0.2
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/b4/e3/cd0352b58a2978c4221eccc9c9743265f140de8d33184a3cc4c439eb67dd/spyder-kernels-2.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b4/e3/cd0352b58a2978c4221eccc9c9743265f140de8d33184a3cc4c439eb67dd/spyder-kernels-2.0.2.tar.gz
 Summary  : Jupyter kernels for Spyder's console
@@ -24,8 +24,10 @@ BuildRequires : cloudpickle
 BuildRequires : decorator
 BuildRequires : ipykernel
 BuildRequires : ipython
+BuildRequires : jupyter_client
 BuildRequires : pyzmq
 BuildRequires : wurlitzer
+Patch1: deps.patch
 
 %description
 # Jupyter kernels for the Spyder console
@@ -71,13 +73,14 @@ python3 components for the spyder-kernels package.
 %prep
 %setup -q -n spyder-kernels-2.0.2
 cd %{_builddir}/spyder-kernels-2.0.2
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1620000802
+export SOURCE_DATE_EPOCH=1620049753
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

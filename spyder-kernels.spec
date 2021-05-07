@@ -4,7 +4,7 @@
 #
 Name     : spyder-kernels
 Version  : 2.0.2
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/b4/e3/cd0352b58a2978c4221eccc9c9743265f140de8d33184a3cc4c439eb67dd/spyder-kernels-2.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b4/e3/cd0352b58a2978c4221eccc9c9743265f140de8d33184a3cc4c439eb67dd/spyder-kernels-2.0.2.tar.gz
 Summary  : Jupyter kernels for Spyder's console
